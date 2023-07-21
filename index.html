@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA List</title>
+    <link rel="stylesheet" href="./tailwind.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container" class="container1 w-full h-screen flex justify-center items-center flex-col relative">
+        <div class="mainbox w-2/5 rounded-3xl flex flex-col justify-around items-center py-5 px-10 z-0">
+            <div class="resultsBox"></div>
+            <div class="erorBox"></div>
+            <div class="gpaInputBox w-4/5 bg-white border-4 border-blue-300 rounded-full pl-10 flex justify-between items-center mt-2">
+                <input type="text" placeholder="GPA: " class="gpaInput outline-none bg-transparent w-full h-full py-3">
+            </div>
+            <div class="codeInputBox w-4/5 bg-white border-4 border-blue-300 rounded-full pl-10 flex justify-between items-center mt-5">
+                <input type="text" placeholder="code: " class="codeInput outline-none bg-transparent w-full h-full py-3">
+            </div>
+            <div class="result"></div>
+            <button class="addButton w-9/12 py-2 bg-blue-600 text-white rounded-3xl my-5">add</button>
+            <button class="showButton w-9/12 py-2 bg-blue-600 text-white rounded-3xl mb-5">show</button>
+            <button class="deleteButton w-9/12 py-2 bg-blue-600 text-white rounded-3xl">delete</button>   
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

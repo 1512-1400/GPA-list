@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container1 {
+    background-image: url(./pexels-pratik-gupta-2748716.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainbox{
+    background-color: #000000d5;
+}
+.blurbg{
+    backdrop-filter: blur(10px);
+}
+span{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
